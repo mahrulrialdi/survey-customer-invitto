@@ -14,9 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [SurveyCostumerController::class, 'index'])->name('index');
-Route::post('/store', [SurveyCostumerController::class, 'store'])->name('store');
+Route::get('/', [SurveyCostumerController::class, 'index_satisfaction'])->name('index_satisfaction');
+Route::get('/survey-complain', [SurveyCostumerController::class, 'index_complain'])->name('index_complain');
+Route::post('/store-survey-satisfaction', [SurveyCostumerController::class, 'survey_satisfaction'])->name('survey_satisfaction');
+Route::post('/store-survey-complain', [SurveyCostumerController::class, 'survey_complain'])->name('survey_complain');
 
 Route::get('/thank-you', function() {
-    return view('thank-you');
+    return view('survey.thank-you');
 })->name('thank-you');

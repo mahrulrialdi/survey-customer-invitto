@@ -42,7 +42,7 @@
             <div class="card shadow-sm p-3 mb-1 bg-body-tertiary rounded">
                 <div class="card-content">
                     <div class="card-body">
-                        <form action="{{ route('store') }}" class="form form-vertical" method="POST">
+                        <form action="{{ route('survey_satisfaction') }}" class="form form-vertical" method="POST">
                             @csrf
                             <div class="form-body">
                                 <div class="row mb-4 border rounded p-2 bg-orange-100">
