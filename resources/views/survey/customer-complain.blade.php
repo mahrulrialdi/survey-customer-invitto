@@ -17,7 +17,7 @@
         <div class="max-w-xl mt-2">
             <div class="row">
                 <div class="col text-center">
-                    <img src="{{ asset('assets/img/imm-black.png') }}" class="p-3" alt="Logo IMM" width="250px">
+                    <img src="{{ asset('assets/img/LOGO INVITA BLACK.png') }}" class="p-3" alt="Logo IMM" width="250px">
                 </div>
             </div>
         </div>
@@ -29,10 +29,7 @@
                     <h4 class="text-white">Survey Komplain Pelanggan</h4>
                 </div>
                 <div class="mt-3">
-                    <p>Halo couples.. terimakasih telah memilih Invitationery.asia untuk menjadi bagian dari hari
-                        bahagia,
-                        sebagai pembawa kabar pernikahanmu. Kami ingin mendengar pendapatmu! Beritahu kami, terkait
-                        pengalamanmu membeli produk Kami ya ☺️</p>
+                    <p>Ceritakan pengalamanmu terkait pelayanan komplain Invitationery.Asia</p>
                 </div>
             </div>
         </div>

@@ -17,7 +17,7 @@
         <div class="max-w-xl mt-2">
             <div class="row">
                 <div class="col text-center">
-                    <img src="{{ asset('assets/img/imm-black.png') }}" class="p-3" alt="Logo IMM" width="250px">
+                    <img src="{{ asset('assets/img/LOGO INVITA BLACK.png') }}" class="p-3" alt="Logo IMM" width="250px">
                 </div>
             </div>
         </div>
@@ -349,7 +349,8 @@
                                     <div class="col-8">
                                         <div class="form-group">
                                             <h6><span class="badge bg-amber-700">Question 12</span></h6>
-                                            <i>"Ekspedisi pengiriman yang digunakan sesuai dengan harapan"<span class="text-red-500">*</span>
+                                            <i>"Secara keseluruhan kami sangat puas dengan pengalaman berbelanja di
+                                                Invitationery.asia"<span class="text-red-500">*</span>
                                             </i>
                                         </div>
                                     </div>
@@ -372,12 +373,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row mb-4 border rounded p-2 bg-orange-100">
+                                <div class="row mb-5 border rounded p-2 bg-orange-100">
                                     <div class="col-8">
                                         <div class="form-group">
-                                            <h6><span class="badge bg-amber-700">Question 13</span></h6>
-                                            <i>"Secara keseluruhan kami sangat puas dengan pengalaman berbelanja di
-                                                Invitationery.asia"<span class="text-red-500">*</span>
+                                            <h6><span class="badge bg-amber-700">Question 14</span></h6>
+                                            <i>"Kami akan merekomendasikan layanan undangan cetak Invitationery.asia
+                                                kepada
+                                                orang lain"<span class="text-red-500">*</span>
                                             </i>
                                         </div>
                                     </div>
@@ -400,35 +402,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row mb-5 border rounded p-2 bg-orange-100">
-                                    <div class="col-8">
-                                        <div class="form-group">
-                                            <h6><span class="badge bg-amber-700">Question 14</span></h6>
-                                            <i>"Kami akan merekomendasikan layanan undangan cetak Invitationery.asia
-                                                kepada
-                                                orang lain"<span class="text-red-500">*</span>
-                                            </i>
-                                        </div>
-                                    </div>
-                                    <div class="col-4 align-self-center">
-                                        <div class="form-group">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="question_14"
-                                                    id="question_14" value="Setuju" required>
-                                                <label class="form-check-label" for="question_14">
-                                                    Setuju
-                                                </label>
-                                            </div>
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="question_14"
-                                                    id="question_14" value="Tidak Setuju" required>
-                                                <label class="form-check-label" for="question_14">
-                                                    Tidak Setuju
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                                 <div class="row mb-3">
                                     <div class="col-12">
                                         <div class="card">
@@ -439,7 +412,7 @@
                                             </div>
                                             <div class="card-body">
                                                 <div class="form-group with-title mb-3">
-                                                    <textarea class="form-control" name="question_15" id="question_15" rows="3" required></textarea>
+                                                    <textarea class="form-control" name="question_14" id="question_14" rows="3" required></textarea>
                                                 </div>
                                             </div>
                                         </div>

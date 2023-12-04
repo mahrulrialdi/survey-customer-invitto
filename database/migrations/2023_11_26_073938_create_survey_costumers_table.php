@@ -26,8 +26,7 @@ return new class extends Migration
             $table->enum('question_11', ['Setuju', 'Tidak Setuju']);
             $table->enum('question_12', ['Setuju', 'Tidak Setuju']);
             $table->enum('question_13', ['Setuju', 'Tidak Setuju']);
-            $table->enum('question_14', ['Setuju', 'Tidak Setuju']);
-            $table->text('question_15');
+            $table->text('question_14');
             $table->timestamps();
         });
     }
