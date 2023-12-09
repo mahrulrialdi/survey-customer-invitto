@@ -33,13 +33,7 @@
     </div>
     <div class="container flex justify-center mt-2 mb-4">
         <div class="max-w-xl mt-2">
-            <div class="card shadow-sm p-3 mb-1 bg-body-tertiary rounded">
-                <div class="card-content">
-                    <div class="card-body">
-                        @yield('content')
-                    </div>
-                </div>
-            </div>
+            @yield('content')
         </div>
     </div>
     <footer>
