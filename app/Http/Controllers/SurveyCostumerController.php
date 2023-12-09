@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\SurveyCostumer;
-use App\Models\SurveyCustomerComplain;
+use App\Models\SurveyCostumerComplain;
 use Illuminate\Http\Request;
 
 class SurveyCostumerController extends Controller
@@ -30,7 +30,7 @@ class SurveyCostumerController extends Controller
     public function survey_complain(Request $request) {
         $data = $request->all();
 
-        SurveyCustomerComplain::create($data);
+        SurveyCostumerComplain::create($data);
         return redirect()->route('thank-you');
     }
 }

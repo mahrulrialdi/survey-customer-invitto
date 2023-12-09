@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('survey_customers_complains', function (Blueprint $table) {
+        Schema::create('survey_costumer_complains', function (Blueprint $table) {
             $table->id();
             $table->enum('question_1', ['Setuju', 'Tidak Setuju']);
             $table->enum('question_2', ['Setuju', 'Tidak Setuju']);
@@ -28,6 +28,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('survey_customers_complains');
+        Schema::dropIfExists('survey_costumer_complains');
     }
 };
