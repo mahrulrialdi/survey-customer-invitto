@@ -25,7 +25,7 @@
         </div>
     </div>
     <div class="container flex justify-center">
-        <div class="max-w-xl mt-2">
+        <div class="w-3/4 max-w-xl mt-2">
             <div class="border-2 shadow-sm p-3 mb-1 bg-white rounded">
                 @yield('header')
             </div>
