@@ -13,20 +13,11 @@ return new class extends Migration
     {
         Schema::create('survey_costumers', function (Blueprint $table) {
             $table->id();
-            $table->enum('question_1', ['Setuju', 'Tidak Setuju']);
-            $table->enum('question_2', ['Setuju', 'Tidak Setuju']);
-            $table->enum('question_3', ['Setuju', 'Tidak Setuju']);
-            $table->enum('question_4', ['Setuju', 'Tidak Setuju']);
-            $table->enum('question_5', ['Setuju', 'Tidak Setuju']);
-            $table->enum('question_6', ['Setuju', 'Tidak Setuju']);
-            $table->enum('question_7', ['Setuju', 'Tidak Setuju']);
-            $table->enum('question_8', ['Setuju', 'Tidak Setuju']);
-            $table->enum('question_9', ['Setuju', 'Tidak Setuju']);
-            $table->enum('question_10', ['Setuju', 'Tidak Setuju']);
-            $table->enum('question_11', ['Setuju', 'Tidak Setuju']);
-            $table->enum('question_12', ['Setuju', 'Tidak Setuju']);
-            $table->enum('question_13', ['Setuju', 'Tidak Setuju']);
-            $table->text('question_14');
+            $table->json('question_1')->nullable();
+            $table->json('question_2')->nullable();
+            $table->json('question_3')->nullable();
+            $table->json('question_4')->nullable();
+            $table->text('question_5')->nullable();
             $table->timestamps();
         });
     }

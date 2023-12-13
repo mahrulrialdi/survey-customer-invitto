@@ -16,24 +16,23 @@
 <body class="bg-orange-50">
     <div class="container flex justify-center">
         <div class="max-w-xl mt-2">
-            <div class="row">
-                <div class="col text-center">
-                    <img src="{{ asset('assets/img/LOGO INVITA BLACK.png') }}" class="p-3" alt="Logo IMM"
-                        width="250px">
-                </div>
+            <div class="col text-center">
+                <img src="{{ asset('assets/img/LOGO INVITA BLACK.png') }}" class="p-3" alt="Logo IMM" width="250px">
             </div>
         </div>
     </div>
     <div class="container flex justify-center">
-        <div class="w-3/4 max-w-xl mt-2">
+        <div class="max-w-xl mt-2">
             <div class="border-2 shadow-sm p-3 mb-1 bg-white rounded">
                 @yield('header')
             </div>
         </div>
     </div>
-    <div class="container flex justify-center mt-2 mb-4">
+    <div class="container flex justify-center">
         <div class="max-w-xl mt-2">
-            @yield('content')
+            <div class="border-2 shadow-sm p-3 mb-4 bg-white rounded">
+                @yield('content')
+            </div>
         </div>
     </div>
     <footer>

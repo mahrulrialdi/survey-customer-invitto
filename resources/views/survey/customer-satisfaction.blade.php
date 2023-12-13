@@ -3,7 +3,7 @@
     <div class="border-0 bg-amber-700 rounded py-1 text-center">
         <h4 class="text-white">Survey Kepuasan Pelanggan</h4>
     </div>
-    <div class="mt-3">
+    <div class="mt-3 px-1">
         <p>Halo couples.. terimakasih telah memilih Invitationery.asia untuk menjadi bagian dari hari
             bahagia,
             sebagai pembawa kabar pernikahanmu. Kami ingin mendengar pendapatmu! Beritahu kami, terkait
@@ -11,403 +11,230 @@
     </div>
 @endsection
 @section('content')
-    <div class="card shadow-sm p-3 mb-1 bg-body-tertiary rounded">
-        <div class="card-content">
-            <div class="card-body">
-                <form action="{{ route('survey_satisfaction') }}" class="form form-vertical" method="POST">
-                    @csrf
-                    <div class="form-body">
-                        <div class="row mb-4 border rounded p-2 bg-orange-100">
-                            <div class="col-8">
-                                <div class="form-group">
-                                    <h6><span class="badge bg-amber-700">Question 1</span></h6>
-                                    <i>"Sangat mudah menemukan informasi yang dibutuhkan untuk melakukan
-                                        pemesanan"<span class="text-red-500">*</span></i>
-                                </div>
-                            </div>
-                            <div class="col-4 align-self-center">
-                                <div class="form-group">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_1" id="question_1"
-                                            value="Setuju" required>
-                                        <label class="form-check-label" for="question_1">
-                                            Setuju
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_1" id="question_1"
-                                            value="Tidak Setuju" required>
-                                        <label class="form-check-label" for="question_1">
-                                            Tidak Setuju
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mb-4 border rounded p-2 bg-orange-100">
-                            <div class="col-8">
-                                <div class="form-group">
-                                    <h6><span class="badge bg-amber-700">Question 2</span></h6>
-                                    <i>"Secara keseluruhan proses pemesanan sangatlah mudah"<span
-                                            class="text-red-500">*</span></i>
-                                </div>
-                            </div>
-                            <div class="col-4 align-self-center">
-                                <div class="form-group">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_2" id="question_2"
-                                            value="Setuju" required>
-                                        <label class="form-check-label" for="question_2">
-                                            Setuju
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_2" id="question_2"
-                                            value="Tidak Setuju" required>
-                                        <label class="form-check-label" for="question_2">
-                                            Tidak Setuju
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mb-4 border rounded p-2 bg-orange-100">
-                            <div class="col-8">
-                                <div class="form-group">
-                                    <h6><span class="badge bg-amber-700">Question 3</span></h6>
-                                    <i>"Kami sangat puas dengan opsi customize yang di sediakan"<span
-                                            class="text-red-500">*</span></i>
-                                </div>
-                            </div>
-                            <div class="col-4 align-self-center">
-                                <div class="form-group">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_3" id="question_3"
-                                            value="Setuju" required>
-                                        <label class="form-check-label" for="question_3">
-                                            Setuju
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_3" id="question_3"
-                                            value="Tidak Setuju" required>
-                                        <label class="form-check-label" for="question_3">
-                                            Tidak Setuju
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mb-4 border rounded p-2 bg-orange-100">
-                            <div class="col-8">
-                                <div class="form-group">
-                                    <h6><span class="badge bg-amber-700">Question 4</span></h6>
-                                    <i>"Tim layanan memberikan pengalaman berkomunikasi dengan sangat baik"<span
-                                            class="text-red-500">*</span></i>
-                                </div>
-                            </div>
-                            <div class="col-4 align-self-center">
-                                <div class="form-group">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_4" id="question_4"
-                                            value="Setuju" required>
-                                        <label class="form-check-label" for="question_4">
-                                            Setuju
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_4" id="question_4"
-                                            value="Tidak Setuju" required>
-                                        <label class="form-check-label" for="question_4">
-                                            Tidak Setuju
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mb-4 border rounded p-2 bg-orange-100">
-                            <div class="col-8">
-                                <div class="form-group">
-                                    <h6><span class="badge bg-amber-700">Question 5</span></h6>
-                                    <i>"Tim layanan kami memberikan jawaban yang
-                                        memuaskan terhadap pertanyaan atau
-                                        masalah customer"<span class="text-red-500">*</span>
-                                    </i>
-                                </div>
-                            </div>
-                            <div class="col-4 align-self-center">
-                                <div class="form-group">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_5" id="question_5"
-                                            value="Setuju" required>
-                                        <label class="form-check-label" for="question_5">
-                                            Setuju
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_5" id="question_5"
-                                            value="Tidak Setuju" required>
-                                        <label class="form-check-label" for="question_5">
-                                            Tidak Setuju
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mb-4 border rounded p-2 bg-orange-100">
-                            <div class="col-8">
-                                <div class="form-group">
-                                    <h6><span class="badge bg-amber-700">Question 6</span></h6>
-                                    <i>
-                                        "Tim layanan pelanggan sangat responsif terhadap pesan customer"<span
-                                            class="text-red-500">*</span>
-                                    </i>
-                                </div>
-                            </div>
-                            <div class="col-4 align-self-center">
-                                <div class="form-group">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_6" id="question_6"
-                                            value="Setuju" required>
-                                        <label class="form-check-label" for="question_6">
-                                            Setuju
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_6" id="question_6"
-                                            value="Tidak Setuju" required>
-                                        <label class="form-check-label" for="question_6">
-                                            Tidak Setuju
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mb-4 border rounded p-2 bg-orange-100">
-                            <div class="col-8">
-                                <div class="form-group">
-                                    <h6><span class="badge bg-amber-700">Question 7</span></h6>
-                                    <i>
-                                        "Kami sangat puas dengan kualitas desain undangan yang disuguhkan dari
-                                        Invitationery"<span class="text-red-500">*</span>
-                                    </i>
-                                </div>
-                            </div>
-                            <div class="col-4 align-self-center">
-                                <div class="form-group">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_7" id="question_7"
-                                            value="Setuju" required>
-                                        <label class="form-check-label" for="question_7">
-                                            Setuju
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_7" id="question_7"
-                                            value="Tidak Setuju" required>
-                                        <label class="form-check-label" for="question_7">
-                                            Tidak Setuju
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mb-4 border rounded p-2 bg-orange-100">
-                            <div class="col-8">
-                                <div class="form-group">
-                                    <h6><span class="badge bg-amber-700">Question 8</span></h6>
-                                    <i>"Undangan yang di terima sesuai dengan harapan"<span class="text-red-500">*</span>
-                                    </i>
-                                </div>
-                            </div>
-                            <div class="col-4 align-self-center">
-                                <div class="form-group">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_8" id="question_8"
-                                            value="Setuju" required>
-                                        <label class="form-check-label" for="question_8">
-                                            Setuju
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_8" id="question_8"
-                                            value="Tidak Setuju" required>
-                                        <label class="form-check-label" for="question_8">
-                                            Tidak Setuju
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mb-4 border rounded p-2 bg-orange-100">
-                            <div class="col-8">
-                                <div class="form-group">
-                                    <h6><span class="badge bg-amber-700">Question 9</span></h6>
-                                    <i>"Kualitas bahan yang digunakan untuk cetak undangan sesuai dengan harapan
-                                        customer"<span class="text-red-500">*</span>
-                                    </i>
-                                </div>
-                            </div>
-                            <div class="col-4 align-self-center">
-                                <div class="form-group">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_9" id="question_9"
-                                            value="Setuju" required>
-                                        <label class="form-check-label" for="question_9">
-                                            Setuju
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_9" id="question_9"
-                                            value="Tidak Setuju" required>
-                                        <label class="form-check-label" for="question_9">
-                                            Tidak Setuju
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mb-4 border rounded p-2 bg-orange-100">
-                            <div class="col-8">
-                                <div class="form-group">
-                                    <h6><span class="badge bg-amber-700">Question 10</span></h6>
-                                    <i>"Undangan tiba sesuai dengan perkiraan waktu pengiriman"<span
-                                            class="text-red-500">*</span>
-                                    </i>
-                                </div>
-                            </div>
-                            <div class="col-4 align-self-center">
-                                <div class="form-group">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_10"
-                                            id="question_10" value="Setuju" required>
-                                        <label class="form-check-label" for="question_10">
-                                            Setuju
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_10"
-                                            id="question_10" value="Tidak Setuju" required>
-                                        <label class="form-check-label" for="question_10">
-                                            Tidak Setuju
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mb-4 border rounded p-2 bg-orange-100">
-                            <div class="col-8">
-                                <div class="form-group">
-                                    <h6><span class="badge bg-amber-700">Question 11</span></h6>
-                                    <i>"Pengemasan produk yang diterima sesuai dengan harapan"<span
-                                            class="text-red-500">*</span>
-                                    </i>
-                                </div>
-                            </div>
-                            <div class="col-4 align-self-center">
-                                <div class="form-group">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_11"
-                                            id="question_11" value="Setuju" required>
-                                        <label class="form-check-label" for="question_11">
-                                            Setuju
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_11"
-                                            id="question_11" value="Tidak Setuju" required>
-                                        <label class="form-check-label" for="question_11">
-                                            Tidak Setuju
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mb-4 border rounded p-2 bg-orange-100">
-                            <div class="col-8">
-                                <div class="form-group">
-                                    <h6><span class="badge bg-amber-700">Question 12</span></h6>
-                                    <i>"Secara keseluruhan kami sangat puas dengan pengalaman berbelanja di
-                                        Invitationery.asia"<span class="text-red-500">*</span>
-                                    </i>
-                                </div>
-                            </div>
-                            <div class="col-4 align-self-center">
-                                <div class="form-group">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_12"
-                                            id="question_12" value="Setuju" required>
-                                        <label class="form-check-label" for="question_12">
-                                            Setuju
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_12"
-                                            id="question_12" value="Tidak Setuju" required>
-                                        <label class="form-check-label" for="question_12">
-                                            Tidak Setuju
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mb-5 border rounded p-2 bg-orange-100">
-                            <div class="col-8">
-                                <div class="form-group">
-                                    <h6><span class="badge bg-amber-700">Question 14</span></h6>
-                                    <i>"Kami akan merekomendasikan layanan undangan cetak Invitationery.asia
-                                        kepada
-                                        orang lain"<span class="text-red-500">*</span>
-                                    </i>
-                                </div>
-                            </div>
-                            <div class="col-4 align-self-center">
-                                <div class="form-group">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_13"
-                                            id="question_13" value="Setuju" required>
-                                        <label class="form-check-label" for="question_13">
-                                            Setuju
-                                        </label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="question_13"
-                                            id="question_13" value="Tidak Setuju" required>
-                                        <label class="form-check-label" for="question_13">
-                                            Tidak Setuju
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-12">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <h6>
-                                            Berikan saran atau kritik untuk meningkatkan layanan kami<span
-                                                class="text-red-500">*</span>
-                                        </h6>
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="form-group with-title mb-3">
-                                            <textarea class="form-control" name="question_14" id="question_14" rows="3" required></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 d-flex justify-content-end">
-                                <button type="reset" class="btn btn-light-secondary me-1 mb-1">Reset</button>
-                                <button type="submit"
-                                    class="border-0 px-2 bg-amber-800 text-white font-bold hover:bg-amber-900 rounded me-1 mb-1">Kirim
-                                    Jawaban</button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
+    <form action="{{ route('survey_satisfaction') }}" class="form form-vertical" method="POST">
+        @csrf
+        <div class="border-0 rounded bg-orange-100 py-2 px-3 mb-4">
+            <div class="mt-2">
+                <h6><span class="badge bg-amber-700">Question 1</span></h6>
+            </div>
+            <div class="italic font-semibold text-amber-700">
+                <p>"Hal mana sajakah dibawah ini yang perlu kami tingkatkan terkait pemesanan"<span
+                        class="text-red-500">*</span></p>
+            </div>
+            <div class="border-0 rounded bg-orange-200 py-2 px-3 mb-2">
+                <div>
+                    <input type="checkbox" name="question_1[]" id="question_1[]"
+                        value="Proses pemesanan sudah memiliki alur yang baik">
+                    <label class="mb-2" for="question_1[]"><span class="ms-1">Proses pemesanan sudah memiliki alur yang
+                            baik</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_1[]" id="question_1[]"
+                        value="Keterbatasan Informasi pada situs Web">
+                    <label class="mb-2" for="question_1[]"><span class="ms-1">Keterbatasan Informasi pada situs
+                            Web</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_1[]" id="question_1[]"
+                        value="Proses komunikasi yang kurang efektif">
+                    <label class="mb-2" for="question_1[]"><span class="ms-1">Proses komunikasi yang kurang
+                            efektif</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_1[]" id="question_1[]"
+                        value="Pengisian data pemesanan yang rumit">
+                    <label class="mb-2" for="question_1[]"><span class="ms-1">Pengisian data pemesanan yang
+                            rumit</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_1[]" id="question_1[]" value="Opsi pembayaran perlu di perbanyak">
+                    <label class="mb-2" for="question_1[]"><span class="ms-1">Opsi pembayaran perlu di
+                            perbanyak</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_1[]" id="question_1[]"
+                        value="Keterlambatan dalam pengiriman Invoice">
+                    <label class="mb-2" for="question_1[]"><span class="ms-1">Keterlambatan dalam pengiriman
+                            Invoice</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_1[]" id="question_1[]"
+                        value="Kualitas layanan pelanggan yang perlu di tingkatkan">
+                    <label class="mb-2" for="question_1[]"><span class="ms-1">Kualitas layanan pelanggan yang perlu di
+                            tingkatkan</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_1[]" id="question_1[]"
+                        value="Alur proses pemesanan sudah sangat baik">
+                    <label class="mb-2" for="question_1[]"><span class="ms-1">Alur proses pemesanan sudah sangat
+                            baik</span></label>
+                </div>
             </div>
         </div>
-    </div>
+        <div class="border-0 rounded bg-orange-100 py-2 px-3 mb-4">
+            <div class="mt-2">
+                <h6><span class="badge bg-amber-700">Question 2</span></h6>
+            </div>
+            <div class="italic font-semibold text-amber-700">
+                <p>"Hal mana sajakah di bawah ini yang perlu kami tingkatkan terkait proses desain"<span
+                        class="text-red-500">*</span></p>
+            </div>
+            <div class="border-0 rounded bg-orange-200 py-2 px-3 mb-2">
+                <div>
+                    <input type="checkbox" name="question_2[]" id="question_2[]"
+                        value="Proses desain sudah memiliki alur yang baik">
+                    <label class="mb-2" for="question_2[]"><span class="ms-1">Proses desain sudah memiliki alur yang
+                            baik</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_2[]" id="question_2[]"
+                        value="Harga penanganan desain terlalu mahal">
+                    <label class="mb-2" for="question_2[]"><span class="ms-1">Harga penanganan desain terlalu
+                            mahal</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_2[]" id="question_2[]"
+                        value="Waktu penanganan desain terlalu lama">
+                    <label class="mb-2" for="question_2[]"><span class="ms-1">Waktu penanganan desain terlalu
+                            lama</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_2[]" id="question_2[]"
+                        value="Kualitas layanan pelanggan yang perlu di tingkatkan">
+                    <label class="mb-2" for="question_2[]"><span class="ms-1">Kualitas layanan pelanggan yang perlu di
+                            tingkatkan</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_2[]" id="question_2[]"
+                        value="Proses desain sudah memiliki alur yang sangat baik">
+                    <label class="mb-2" for="question_2[]"><span class="ms-1">Proses desain sudah memiliki alur yang
+                            sangat baik</span></label>
+                </div>
+            </div>
+        </div>
+        <div class="border-0 rounded bg-orange-100 py-2 px-3 mb-4">
+            <div class="mt-2">
+                <h6><span class="badge bg-amber-700">Question 3</span></h6>
+            </div>
+            <div class="italic font-semibold text-amber-700">
+                <p>"Hal mana sajakah dibawah ini yang perlu kami tingkatkan terkait pengiriman"<span
+                        class="text-red-500">*</span></p>
+            </div>
+            <div class="border-0 rounded bg-orange-200 py-2 px-3 mb-2">
+                <div>
+                    <input type="checkbox" name="question_3[]" id="question_3[]"
+                        value="Seluruh proses pengiriman sudah baik">
+                    <label class="mb-2" for="question_3[]"><span class="ms-1">Seluruh proses pengiriman sudah
+                            baik</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_3[]" id="question_3[]" value="Pengiriman Produk terlalu lama">
+                    <label class="mb-2" for="question_3[]"><span class="ms-1">Pengiriman Produk terlalu
+                            lama</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_3[]" id="question_3[]"
+                        value="Status pengiriman yang kurang jelas">
+                    <label class="mb-2" for="question_3[]"><span class="ms-1">Status pengiriman yang kurang
+                            jelas</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_3[]" id="question_3[]"
+                        value="Kualitas pengemasan produk kurang baik">
+                    <label class="mb-2" for="question_3[]"><span class="ms-1">Kualitas pengemasan produk kurang
+                            baik</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_3[]" id="question_3[]" value="Opsi pengiriman terbatas">
+                    <label class="mb-2" for="question_3[]"><span class="ms-1">Opsi pengiriman terbatas</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_3[]" id="question_3[]" value="Paket rusak dalam pengiriman">
+                    <label class="mb-2" for="question_3[]"><span class="ms-1">Paket rusak dalam
+                            pengiriman</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_3[]" id="question_3[]"
+                        value="Jangkauan area pengiriman terbatas">
+                    <label class="mb-2" for="question_3[]"><span class="ms-1">Jangkauan area pengiriman
+                            terbatas</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_3[]" id="question_3[]"
+                        value="Tidak semua barang yang dipesan terkirim">
+                    <label class="mb-2" for="question_3[]"><span class="ms-1">Tidak semua barang yang dipesan
+                            terkirim</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_3[]" id="question_3[]"
+                        value="Tidak semua barang yang dipesan terkirim">
+                    <label class="mb-2" for="question_3[]"><span class="ms-1">Seluruh proses pengiriman sangat
+                            baik</span></label>
+                </div>
+            </div>
+        </div>
+        <div class="border-0 rounded bg-orange-100 py-2 px-3 mb-4">
+            <div class="mt-2">
+                <h6><span class="badge bg-amber-700">Question 4</span></h6>
+            </div>
+            <div class="italic font-semibold text-amber-700">
+                <p>"Hal mana sajakah dibawah ini yang perlu kami tingkatkan terkait Produk"<span
+                        class="text-red-500">*</span></p>
+            </div>
+            <div class="border-0 rounded bg-orange-200 py-2 px-3 mb-2">
+                <div>
+                    <input type="checkbox" name="question_4[]" id="question_4[]"
+                        value="Kami puas terhadap produk yang diterima">
+                    <label class="mb-2" for="question_4[]"><span class="ms-1">Kami puas terhadap produk yang
+                            diterima</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_4[]" id="question_4[]" value="Harga produk terlalu mahal">
+                    <label class="mb-2" for="question_4[]"><span class="ms-1">Harga produk terlalu
+                            mahal</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_4[]" id="question_4[]"
+                        value="Produk kurang sesuai dengan ekspektasi">
+                    <label class="mb-2" for="question_4[]"><span class="ms-1">Produk kurang sesuai dengan
+                            ekspektasi</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_4[]" id="question_4[]"
+                        value="Kualitas produk kurang memuaskan">
+                    <label class="mb-2" for="question_4[]"><span class="ms-1">Kualitas produk kurang
+                            memuaskan</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_4[]" id="question_4[]" value="Packing produk kurang memadai">
+                    <label class="mb-2" for="question_4[]"><span class="ms-1">Packing produk kurang
+                            memadai</span></label>
+                </div>
+                <div>
+                    <input type="checkbox" name="question_4[]" id="question_4[]"
+                        value="Kami sangat puas terhadap keseluruhan produk yang kami terima">
+                    <label class="mb-2" for="question_4[]"><span class="ms-1">Kami sangat puas terhadap keseluruhan
+                            produk yang kami terima</span></label>
+                </div>
+            </div>
+        </div>
+        <div class="border-0 rounded bg-orange-100 py-2 px-3 mb-4">
+            <div class="mt-2">
+                <h6><span class="badge bg-amber-700">Question 5</span></h6>
+            </div>
+            <div class="italic font-semibold text-amber-700">
+                <p>"Berikan saran atau kritik untuk meningkatkan layanan kami"<span class="text-red-500">*</span></p>
+            </div>
+            <div class="border-0 rounded bg-orange-200 py-2 px-3 mb-2">
+                    <textarea class="w-full h-40 mt-2 p-2" type="text" name="question_5" id="question_5">
+                    </textarea>
+            </div>
+        </div>
+        <div class="d-flex justify-content-end">
+            <button type="reset" class="btn btn-light-secondary me-1">Reset</button>
+            <button type="submit"
+                class="border-0 px-2 bg-amber-800 text-white font-bold hover:bg-amber-900 rounded me-1 mb-1">Kirim
+                Jawaban</button>
+        </div>
+    </form>
 @endsection
