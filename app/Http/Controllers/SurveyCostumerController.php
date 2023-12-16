@@ -5,12 +5,13 @@ namespace App\Http\Controllers;
 use App\Models\SurveyCostumer;
 use App\Models\SurveyCostumerComplain;
 use Illuminate\Http\Request;
+use Inertia\Inertia;
 
 class SurveyCostumerController extends Controller
 {
     // View Survey Kepuasan
     public function index_satisfaction() {
-        return view('survey.customer-satisfaction');
+        return Inertia::render('CustomerSatisfaction');
     }
 
     // View Survey Komplain
