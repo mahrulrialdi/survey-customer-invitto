@@ -23,7 +23,6 @@ class SurveyCostumerController extends Controller
     public function survey_satisfaction(Request $request) {
         $request->validate([
             'question_5' => 'required|string',
-            // Tambahkan validasi lain jika diperlukan
         ]);
 
         $survey = new SurveyCostumer();
@@ -34,10 +33,9 @@ class SurveyCostumerController extends Controller
         $survey->question_4 = json_encode($request->input('question_4'));
         $survey->question_5 = $request->input('question_5');
 
-
         $survey->save();
 
-        return redirect()->route('thank-you');
+        return redirect()->route('thank_you');
     }
 
     // Store hasil form dan redirect ke halaman thank-you
@@ -45,6 +43,10 @@ class SurveyCostumerController extends Controller
         $data = $request->all();
 
         SurveyCostumerComplain::create($data);
-        return redirect()->route('thank-you');
+        return redirect()->route('thank_you');
+    }
+
+    public function thank_you() {
+        return Inertia::render('ThankYou');
     }
 }

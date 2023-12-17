@@ -27,7 +27,9 @@ use Inertia\Inertia;
 //     ]);
 // });
 
-Route::get('/', [SurveyCostumerController::class, 'index_satisfaction']);
+Route::get('/', [SurveyCostumerController::class, 'index_satisfaction'])->name('index_satisfcation');
+Route::post('/store', [SurveyCostumerController::class, 'survey_satisfaction'])->name('store');
+Route::get('/thank-you', [SurveyCostumerController::class, 'thank_you'])->name('thank_you');
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
