@@ -59,8 +59,8 @@ function App() {
                                 </p>
                             </div>
                             <div className="border-0 rounded bg-orange-200 py-2 px-3 mb-2">
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_1"
@@ -70,15 +70,15 @@ function App() {
                                             className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Proses pemesanan sudah memiliki alur
                                             yang baik
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_1"
@@ -88,15 +88,15 @@ function App() {
                                             className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Keterbatasan Informasi pada situs
                                             Web
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_1"
@@ -106,15 +106,15 @@ function App() {
                                             className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Proses komunikasi yang kurang
                                             efektif
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_1"
@@ -124,14 +124,14 @@ function App() {
                                             className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Pengisian data pemesanan yang rumit
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_1"
@@ -141,14 +141,14 @@ function App() {
                                             className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Opsi pembayaran perlu di perbanyak
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_1"
@@ -158,15 +158,15 @@ function App() {
                                             className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Keterlambatan dalam pengiriman
                                             Invoice
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_1"
@@ -176,15 +176,15 @@ function App() {
                                             className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Kualitas layanan pelanggan yang
                                             perlu di tingkatkan
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_1"
@@ -194,7 +194,7 @@ function App() {
                                             className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Alur proses pemesanan sudah sangat
                                             baik
@@ -217,8 +217,8 @@ function App() {
                                 </p>
                             </div>
                             <div className="border-0 rounded bg-orange-200 py-2 px-3 mb-2">
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_2"
@@ -228,15 +228,15 @@ function App() {
                                             value="Proses desain sudah memiliki alur yang baik"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Proses desain sudah memiliki alur
                                             yang baik
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_2"
@@ -246,15 +246,15 @@ function App() {
                                             value="Harga penanganan desain terlalu mahal"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Harga penanganan desain terlalu
                                             mahal
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_2"
@@ -264,14 +264,14 @@ function App() {
                                             value="Waktu penanganan desain terlalu lama"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Waktu penanganan desain terlalu lama
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_2"
@@ -281,15 +281,15 @@ function App() {
                                             value="Kualitas layanan pelanggan yang perlu di tingkatkan"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Kualitas layanan pelanggan yang
                                             perlu di tingkatkan
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_2"
@@ -299,7 +299,7 @@ function App() {
                                             value="Proses desain sudah memiliki alur yang sangat baik"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Proses desain sudah memiliki alur
                                             yang sangat baik
@@ -322,8 +322,8 @@ function App() {
                                 </p>
                             </div>
                             <div className="border-0 rounded bg-orange-200 py-2 px-3 mb-2">
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_3"
@@ -333,14 +333,14 @@ function App() {
                                             value="Seluruh proses pengiriman sudah baik"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Seluruh proses pengiriman sudah baik
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_3"
@@ -350,14 +350,14 @@ function App() {
                                             value="Pengiriman Produk terlalu lama"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Pengiriman Produk terlalu lama
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_3"
@@ -367,14 +367,14 @@ function App() {
                                             value="Status pengiriman yang kurang jelas"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Status pengiriman yang kurang jelas
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_3"
@@ -384,15 +384,15 @@ function App() {
                                             value="Kualitas pengemasan produk kurang baik"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Kualitas pengemasan produk kurang
                                             baik
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_3"
@@ -402,14 +402,14 @@ function App() {
                                             value="Opsi pengiriman terbatas"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Opsi pengiriman terbatas
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_3"
@@ -419,14 +419,14 @@ function App() {
                                             value="Paket rusak dalam pengiriman"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Paket rusak dalam pengiriman
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_3"
@@ -436,14 +436,14 @@ function App() {
                                             value="Jangkauan area pengiriman terbatas"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Jangkauan area pengiriman terbatas
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_3"
@@ -453,15 +453,15 @@ function App() {
                                             value="Tidak semua barang yang dipesan terkirim"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Tidak semua barang yang dipesan
                                             terkirim
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_3"
@@ -471,7 +471,7 @@ function App() {
                                             value="Tidak semua barang yang dipesan terkirim"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Seluruh proses pengiriman sangat
                                             baik
@@ -494,8 +494,8 @@ function App() {
                                 </p>
                             </div>
                             <div className="border-0 rounded bg-orange-200 py-2 px-3 mb-2">
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_4"
@@ -505,15 +505,15 @@ function App() {
                                             value="Kami puas terhadap produk yang diterima"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Kami puas terhadap produk yang
                                             diterima
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_4"
@@ -523,14 +523,14 @@ function App() {
                                             value="Harga produk terlalu mahal"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Harga produk terlalu mahal
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_4"
@@ -540,15 +540,15 @@ function App() {
                                             value="Produk kurang sesuai dengan ekspektasi"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Produk kurang sesuai dengan
                                             ekspektasi
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_4"
@@ -558,14 +558,14 @@ function App() {
                                             value="Kualitas produk kurang memuaskan"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Kualitas produk kurang memuaskan
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_4"
@@ -575,14 +575,14 @@ function App() {
                                             value="Packing produk kurang memadai"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Packing produk kurang memadai
                                         </label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-1">
+                                <div className="flex flex-row">
+                                    <div className="basis-1/12">
                                         <input
                                             type="checkbox"
                                             name="question_4"
@@ -592,7 +592,7 @@ function App() {
                                             value="Kami sangat puas terhadap keseluruhan produk yang kami terima"
                                         ></input>
                                     </div>
-                                    <div className="col-11 ps-0">
+                                    <div className="basis-11/12 ms-2">
                                         <label className="mb-2">
                                             Kami sangat puas terhadap
                                             keseluruhan produk yang kami terima
