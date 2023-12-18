@@ -1,4 +1,4 @@
-import logo from "../../../public/assets/img/LOGO INVITA BLACK.png";
+import logo from "../../../public/assets/img/LOGO INVITTO BLACK.png";
 import Footer from "@/Components/Footer";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
                 <div className="container flex justify-center">
                     <div className="max-w-xl mt-2">
                         <div className="border-2 shadow-sm p-3 mb-1 bg-white rounded">
-                            <div className="border-0 bg-amber-700 rounded py-1 text-center">
+                            <div className="border-0 bg-pink-700 rounded py-1 text-center">
                                 <h4 className="text-white text-2xl font-extrabold">
                                     Thank You
                                 </h4>

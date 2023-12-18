@@ -45,20 +45,20 @@ function App() {
             <div className="container flex justify-center">
                 <div className="max-w-xl mt-2">
                     <form onSubmit={handleSubmit}>
-                        <div className="border-0 rounded bg-orange-100 py-2 px-3 mb-4">
+                        <div className="border-0 rounded bg-rose-100 py-2 px-3 mb-4">
                             <div className="mt-2">
-                                <span className="border-0 rounded-full bg-amber-700 py-1 px-2 text-white font-bold">
+                                <span className="border-0 rounded-full bg-pink-700 py-1 px-2 text-white font-bold">
                                     Question 1
                                 </span>
                             </div>
-                            <div className="italic font-semibold text-amber-700 mt-2 mb-2">
+                            <div className="italic font-semibold text-pink-700 mt-2 mb-2">
                                 <p>
                                     "Hal mana sajakah dibawah ini yang perlu
                                     kami tingkatkan terkait pemesanan"
                                     <span className="text-red-500">*</span>
                                 </p>
                             </div>
-                            <div className="border-0 rounded bg-orange-200 py-2 px-3 mb-2">
+                            <div className="border-0 rounded bg-rose-200 py-2 px-3 mb-2">
                                 <div className="flex flex-row">
                                     <div className="basis-1/12">
                                         <input
@@ -67,7 +67,7 @@ function App() {
                                             id="question_1"
                                             value="Proses pemesanan sudah memiliki alur yang baik"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                         ></input>
                                     </div>
                                     <div className="basis-11/12 ms-2">
@@ -85,7 +85,7 @@ function App() {
                                             id="question_1"
                                             value="Keterbatasan Informasi pada situs Web"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                         ></input>
                                     </div>
                                     <div className="basis-11/12 ms-2">
@@ -103,7 +103,7 @@ function App() {
                                             id="question_1"
                                             value="Proses komunikasi yang kurang efektif"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                         ></input>
                                     </div>
                                     <div className="basis-11/12 ms-2">
@@ -121,7 +121,7 @@ function App() {
                                             id="question_1"
                                             value="Pengisian data pemesanan yang rumit"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                         ></input>
                                     </div>
                                     <div className="basis-11/12 ms-2">
@@ -138,7 +138,7 @@ function App() {
                                             id="question_1"
                                             value="Opsi pembayaran perlu di perbanyak"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                         ></input>
                                     </div>
                                     <div className="basis-11/12 ms-2">
@@ -155,7 +155,7 @@ function App() {
                                             id="question_1"
                                             value="Keterlambatan dalam pengiriman Invoice"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                         ></input>
                                     </div>
                                     <div className="basis-11/12 ms-2">
@@ -173,7 +173,7 @@ function App() {
                                             id="question_1"
                                             value="Kualitas layanan pelanggan yang perlu di tingkatkan"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                         ></input>
                                     </div>
                                     <div className="basis-11/12 ms-2">
@@ -191,7 +191,7 @@ function App() {
                                             id="question_1"
                                             value="Alur proses pemesanan sudah sangat baik"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                         ></input>
                                     </div>
                                     <div className="basis-11/12 ms-2">
@@ -203,20 +203,20 @@ function App() {
                                 </div>
                             </div>
                         </div>
-                        <div className="border-0 rounded bg-orange-100 py-2 px-3 mb-4">
+                        <div className="border-0 rounded bg-rose-100 py-2 px-3 mb-4">
                             <div className="mt-2">
-                                <span className="border-0 rounded-full bg-amber-700 py-1 px-2 text-white font-bold">
+                                <span className="border-0 rounded-full bg-pink-700 py-1 px-2 text-white font-bold">
                                     Question 2
                                 </span>
                             </div>
-                            <div className="italic font-semibold text-amber-700 mt-2 mb-2">
+                            <div className="italic font-semibold text-pink-700 mt-2 mb-2">
                                 <p>
                                     "Hal mana sajakah di bawah ini yang perlu
                                     kami tingkatkan terkait proses desain"
                                     <span className="text-red-500">*</span>
                                 </p>
                             </div>
-                            <div className="border-0 rounded bg-orange-200 py-2 px-3 mb-2">
+                            <div className="border-0 rounded bg-rose-200 py-2 px-3 mb-2">
                                 <div className="flex flex-row">
                                     <div className="basis-1/12">
                                         <input
@@ -224,7 +224,7 @@ function App() {
                                             name="question_2"
                                             id="question_2"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                             value="Proses desain sudah memiliki alur yang baik"
                                         ></input>
                                     </div>
@@ -242,7 +242,7 @@ function App() {
                                             name="question_2"
                                             id="question_2"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                             value="Harga penanganan desain terlalu mahal"
                                         ></input>
                                     </div>
@@ -260,7 +260,7 @@ function App() {
                                             name="question_2"
                                             id="question_2"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                             value="Waktu penanganan desain terlalu lama"
                                         ></input>
                                     </div>
@@ -277,7 +277,7 @@ function App() {
                                             name="question_2"
                                             id="question_2"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                             value="Kualitas layanan pelanggan yang perlu di tingkatkan"
                                         ></input>
                                     </div>
@@ -295,7 +295,7 @@ function App() {
                                             name="question_2"
                                             id="question_2"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                             value="Proses desain sudah memiliki alur yang sangat baik"
                                         ></input>
                                     </div>
@@ -308,20 +308,20 @@ function App() {
                                 </div>
                             </div>
                         </div>
-                        <div className="border-0 rounded bg-orange-100 py-2 px-3 mb-4">
+                        <div className="border-0 rounded bg-rose-100 py-2 px-3 mb-4">
                             <div className="mt-2">
-                                <span className="border-0 rounded-full bg-amber-700 py-1 px-2 text-white font-bold">
+                                <span className="border-0 rounded-full bg-pink-700 py-1 px-2 text-white font-bold">
                                     Question 3
                                 </span>
                             </div>
-                            <div className="italic font-semibold text-amber-700 mt-2 mb-2">
+                            <div className="italic font-semibold text-pink-700 mt-2 mb-2">
                                 <p>
                                     "Hal mana sajakah dibawah ini yang perlu
                                     kami tingkatkan terkait pengiriman"
                                     <span className="text-red-500">*</span>
                                 </p>
                             </div>
-                            <div className="border-0 rounded bg-orange-200 py-2 px-3 mb-2">
+                            <div className="border-0 rounded bg-rose-200 py-2 px-3 mb-2">
                                 <div className="flex flex-row">
                                     <div className="basis-1/12">
                                         <input
@@ -329,7 +329,7 @@ function App() {
                                             name="question_3"
                                             id="question_3"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                             value="Seluruh proses pengiriman sudah baik"
                                         ></input>
                                     </div>
@@ -346,7 +346,7 @@ function App() {
                                             name="question_3"
                                             id="question_3"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                             value="Pengiriman Produk terlalu lama"
                                         ></input>
                                     </div>
@@ -363,7 +363,7 @@ function App() {
                                             name="question_3"
                                             id="question_3"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                             value="Status pengiriman yang kurang jelas"
                                         ></input>
                                     </div>
@@ -380,7 +380,7 @@ function App() {
                                             name="question_3"
                                             id="question_3"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                             value="Kualitas pengemasan produk kurang baik"
                                         ></input>
                                     </div>
@@ -398,7 +398,7 @@ function App() {
                                             name="question_3"
                                             id="question_3"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                             value="Opsi pengiriman terbatas"
                                         ></input>
                                     </div>
@@ -415,7 +415,7 @@ function App() {
                                             name="question_3"
                                             id="question_3"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                             value="Paket rusak dalam pengiriman"
                                         ></input>
                                     </div>
@@ -432,7 +432,7 @@ function App() {
                                             name="question_3"
                                             id="question_3"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                             value="Jangkauan area pengiriman terbatas"
                                         ></input>
                                     </div>
@@ -449,7 +449,7 @@ function App() {
                                             name="question_3"
                                             id="question_3"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                             value="Tidak semua barang yang dipesan terkirim"
                                         ></input>
                                     </div>
@@ -467,7 +467,7 @@ function App() {
                                             name="question_3"
                                             id="question_3"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                             value="Tidak semua barang yang dipesan terkirim"
                                         ></input>
                                     </div>
@@ -480,20 +480,20 @@ function App() {
                                 </div>
                             </div>
                         </div>
-                        <div className="border-0 rounded bg-orange-100 py-2 px-3 mb-4">
+                        <div className="border-0 rounded bg-rose-100 py-2 px-3 mb-4">
                             <div className="mt-2">
-                                <span className="border-0 rounded-full bg-amber-700 py-1 px-2 text-white font-bold">
+                                <span className="border-0 rounded-full bg-pink-700 py-1 px-2 text-white font-bold">
                                     Question 4
                                 </span>
                             </div>
-                            <div className="italic font-semibold text-amber-700 mt-2 mb-2">
+                            <div className="italic font-semibold text-pink-700 mt-2 mb-2">
                                 <p>
                                     "Hal mana sajakah dibawah ini yang perlu
                                     kami tingkatkan terkait Produk"
                                     <span className="text-red-500">*</span>
                                 </p>
                             </div>
-                            <div className="border-0 rounded bg-orange-200 py-2 px-3 mb-2">
+                            <div className="border-0 rounded bg-rose-200 py-2 px-3 mb-2">
                                 <div className="flex flex-row">
                                     <div className="basis-1/12">
                                         <input
@@ -501,7 +501,7 @@ function App() {
                                             name="question_4"
                                             id="question_4"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                             value="Kami puas terhadap produk yang diterima"
                                         ></input>
                                     </div>
@@ -519,7 +519,7 @@ function App() {
                                             name="question_4"
                                             id="question_4"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                             value="Harga produk terlalu mahal"
                                         ></input>
                                     </div>
@@ -536,7 +536,7 @@ function App() {
                                             name="question_4"
                                             id="question_4"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                             value="Produk kurang sesuai dengan ekspektasi"
                                         ></input>
                                     </div>
@@ -554,7 +554,7 @@ function App() {
                                             name="question_4"
                                             id="question_4"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                             value="Kualitas produk kurang memuaskan"
                                         ></input>
                                     </div>
@@ -571,7 +571,7 @@ function App() {
                                             name="question_4"
                                             id="question_4"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                             value="Packing produk kurang memadai"
                                         ></input>
                                     </div>
@@ -588,7 +588,7 @@ function App() {
                                             name="question_4"
                                             id="question_4"
                                             onChange={handleChange}
-                                            className="checkbox checkbox-sm border-white checked:border-orange-700 [--chkbg:theme(colors.amber.700)] [--chkfg:white]"
+                                            className="checkbox checkbox-sm border-white checked:border-rose-700 [--chkbg:theme(colors.pink.700)] [--chkfg:white]"
                                             value="Kami sangat puas terhadap keseluruhan produk yang kami terima"
                                         ></input>
                                     </div>
@@ -601,20 +601,20 @@ function App() {
                                 </div>
                             </div>
                         </div>
-                        <div className="border-0 rounded bg-orange-100 py-2 px-3 mb-4">
+                        <div className="border-0 rounded bg-rose-100 py-2 px-3 mb-4">
                             <div className="mt-2">
-                                <span className="border-0 rounded-full bg-amber-700 py-1 px-2 text-white font-bold">
+                                <span className="border-0 rounded-full bg-pink-700 py-1 px-2 text-white font-bold">
                                     Question 5
                                 </span>
                             </div>
-                            <div className="italic font-semibold text-amber-700 mt-2 mb-2">
+                            <div className="italic font-semibold text-pink-700 mt-2 mb-2">
                                 <p>
                                     "Berikan saran atau kritik untuk
                                     meningkatkan layanan kami"
                                     <span className="text-red-500">*</span>
                                 </p>
                             </div>
-                            <div className="border-0 rounded bg-orange-200 py-2 px-3 mb-2">
+                            <div className="border-0 rounded bg-rose-200 py-2 px-3 mb-2">
                                 <input
                                     className="w-full h-40 mt-2 p-2"
                                     type="text"
@@ -629,15 +629,15 @@ function App() {
                             <input
                                 type="submit"
                                 value="submit"
-                                className="border-0 px-2 bg-amber-800 text-white font-bold hover:bg-amber-900 rounded me-1 mb-1"
+                                className="border-0 px-2 bg-pink-800 text-white font-bold hover:bg-pink-900 rounded me-1 mb-1"
                             >
                                 Kirim Jawaban
                             </input>
                         </div> */}
-                        <div className="border-0 rounded bg-orange-100 py-2 px-3 mb-4">
+                        <div className="border-0 rounded bg-rose-100 py-2 px-3 mb-4">
                             <div className="flex justify-center">
                                 <button
-                                    className="btn btn-block btn-warning"
+                                    className="btn btn-block btn-error text-white"
                                     type="submit"
                                 >
                                     Kirim Jawaban
