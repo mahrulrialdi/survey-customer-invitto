@@ -26,7 +26,7 @@ export default function Header() {
                         <div className="mt-3 px-1">
                             <p>
                                 Halo couples.. terimakasih telah memilih
-                                Invitationery.asia untuk menjadi bagian dari
+                                Invitto untuk menjadi bagian dari
                                 hari bahagia, sebagai pembawa kabar
                                 pernikahanmu. Kami ingin mendengar pendapatmu!
                                 Beritahu kami, terkait pengalamanmu membeli
